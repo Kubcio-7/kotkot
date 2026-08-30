@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Rpg-Rp7A';
+    src: url('fonts/Rpg-Rp7A.ttf') format('truetype');
+}
+
+body {
+    background-color: #1f1f1d;
+    color: #faf9f9;
+    font-family: 'Rpg-Rp7A', sans-serif;
+    background-size: 200px 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 720%;
+    color: #ffffff;
+    text-shadow: 8px 8px #000000;
+    font-family: 'Rpg-Rp7A', sans-serif;
+    font-style: italic;
+    top: -5%;
+    left: 30%;  
+    position: absolute;
+}
+
+
+
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.button-container {
+    position: absolute;
+    right: 60%;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.w {
+    color: #ffffff;
+    text-shadow: 8px 5px #000000;
+    font-family: 'Rpg-Rp7A', sans-serif;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, text-shadow 0.3s;
+    background-color: transparent;
+    border: none;
+}
+
+.w:hover {
+    background-color: transparent;
+    color: #000000;
+    text-shadow: 2px 3px #ffffff;
+}
+
+.tv {
+    width: 30%;
+    height: 44%;
+    margin: 0 auto;
+    top: 39%;
+    left: 54%;
+    position: absolute;
+    z-index: 3;
+}
+
+.black {
+    width: 30%;
+    height: 44%;
+    margin: 0 auto;
+    top: 39%;
+    left: 54%;
+    position: absolute;
+    z-index: 2;
+}
+
+.gf {
+    width: 40%;
+    height: 75%;
+    margin: 0 auto;
+    top: 17%;
+    left: 50%;
+    position: absolute;
+    z-index: 100; 
+}
+
+.cn {
+    width: 40%;
+    height: 75%;
+    margin: 0 auto;
+    top: 17%;
+    left: 53%;
+    position: absolute;
+    opacity: 0.5; 
+}
+
+.gif-overlay {
+    display: none;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    width: 40%;
+    height: 75%;
+    z-index: 9;
+}
+
+#gif1 {
+    width: 20%;
+    height: auto;
+    top: 43%;
+    left: 57%;
+    position: absolute;
+    z-index: 5;
+}
+
+#gif2 {
+    width: 20% !important;
+    height: auto !important;
+    top: 68%;
+    left: 57%;
+    position: absolute;
+    z-index: 3;
+}
+
+
